@@ -294,10 +294,10 @@ export default function App() {
     </section>
     <section className="insight-section line-section">
       <div className="insight-copy"><span className="eyebrow"><i/> 01 / AUTOMATED PRODUCTION</span><h2>Motion, made<br/><span>precise.</span></h2><p>Robotic workcells move in a measured rhythm. Every transfer, inspection, and placement brings the assembly closer to its final form.</p><div className="insight-foot"><span>CONTROLLED AT EVERY STEP</span><i/></div></div>
-      <figure className="insight-media"><img src="/images/factory-floor.png" alt="Robotic arms working over an illuminated factory assembly line"/><figcaption><span>LINE 01</span><span>LIVE SYSTEM / 24:07:16</span></figcaption></figure>
+      <figure className="insight-media"><img src={`${import.meta.env.BASE_URL}images/factory-floor.png`} alt="Robotic arms working over an illuminated factory assembly line"/><figcaption><span>LINE 01</span><span>LIVE SYSTEM / 24:07:16</span></figcaption></figure>
     </section>
     <section className="insight-section cutaway-section">
-      <figure className="insight-media"><img src="/images/precision-cutaway.png" alt="Exploded transparent cutaway showing the gears, shafts, and internal connections of a precision mechanism"/><figcaption><span>CORE ASSEMBLY</span><span>SECTION VIEW / 02</span></figcaption></figure>
+      <figure className="insight-media"><img src={`${import.meta.env.BASE_URL}images/precision-cutaway.png`} alt="Exploded transparent cutaway showing the gears, shafts, and internal connections of a precision mechanism"/><figcaption><span>CORE ASSEMBLY</span><span>SECTION VIEW / 02</span></figcaption></figure>
       <div className="insight-copy"><span className="eyebrow"><i/> 02 / ENGINEERED WITHIN</span><h2>Every part<br/>has a <span>purpose.</span></h2><p>Precision gears, drive shafts, and electronic control meet inside one carefully aligned system. The details you cannot see are what make every movement dependable.</p><div className="insight-foot"><span>ASSEMBLED TO WORK AS ONE</span><i/></div></div>
     </section>
     <footer><a className="brand" href="#top"><span className="brand-mark"><span/></span><span>FUTURE<span className="brand-light">/</span>FACTORY<small>PRECISION SYSTEMS · EST. 2049</small></span></a><span>DESIGNED FOR WHAT'S NEXT.</span><span>© 2049 FUTURE SYSTEMS</span></footer>
